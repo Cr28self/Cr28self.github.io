@@ -4,16 +4,32 @@ header{
     nav{
         white-space: nowrap;
         display:block!important;
-        overflow-x: scroll;
+        overflow-x: hidden;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
         ul{
+
+            text-align: center;
             li{
-                position: relative;
+                /*position: relative;
                 display: inline-block; 
                 margin-right : 5%;
                 font-size: 1rem;
-                line-height: 2.3rem; 
+                line-height: 2.3rem; */
+
+                    position: relative;
+                    display: inline-block;
+                font-size: 26px;
+                padding: 3px 29px;
+
+                    //margin: 20px 10px 10px;
+                    border-radius: 6px;
+                    color: black;
+                    text-align: center;
+                    /*transition: top .01s linear;
+                    text-shadow: 0 1px 0 rgba(0,0,0,0.15);
+                background-color: #abdbe3;*/
+
             }
             .current {
                 font-weight: 700;
